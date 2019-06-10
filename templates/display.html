@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display</title>
+    <link rel="stylesheet" type="text/css" href="/static/frontpage.css">
+    <script src="/static/frontpage.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body background="./static/w10.jpg">
+    <div class="header">
+       <h1>Output</h1>
+    </div> 
+    <div class="whole">
+        <div class="numberplate">
+            <div>
+                <h2 class="subheading">Number Plate</h2>
+                <img src="/imageOg" />
+            </div>
+            <div class="logotxt">
+                <p>The Number Plate is: </p> <div class="txt">{{ text }}</div>
+            </div>
+        </div>
+        <div class="logo">
+            <div>
+                <h2 class="subheading">Company Logo</h2>
+                <img src="/logo"/>
+            </div>
+            <div class="logotxt">
+                <p>Name of the Company: </p> <div class="txt">{{ logotext }}</div>
+            </div>
+        </div>  
+    </div>      
+</body>
+</html>
